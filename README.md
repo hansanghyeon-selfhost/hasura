@@ -23,3 +23,7 @@ services:
 ```
 
 `HASURA_GRAPHQL_JWT_SECRET`를 설정하면 `HASURA_GRAPHQL_ADMIN_SECRET`는 필수로 설정해야 한다.
+
+```log
+graphql-engine-1  | Fatal Error : --jwt-secret (HASURA_GRAPHQL_JWT_SECRET) requires --admin-secret (HASURA_GRAPHQL_ADMIN_SECRET) or  --access-key (HASURA_GRAPHQL_ACCESS_KEY) to be set
+```
