@@ -10,6 +10,8 @@ healthcheck에서 헷갈렸던 부분이있었다.
 
 ## clerk
 
+https://hasura.io/learn/graphql/hasura-authentication/integrations/clerk/
+
 https://hasura.io/docs/2.0/auth/authentication/jwt/#running-with-jwt
 
 ```yaml
